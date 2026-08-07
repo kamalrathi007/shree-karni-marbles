@@ -311,6 +311,11 @@ section{position:relative; padding:100px 0;}
 .why-card p{color:var(--text-muted); font-size:.92rem; margin-top:8px;}
 
 /* Gallery */
+.gallery-subhead{
+  font-size:1.3rem; color:var(--gold);
+  margin:44px 0 20px; padding-top:28px; border-top:1px solid var(--line);
+}
+.gallery-subhead:first-of-type{margin-top:8px; padding-top:0; border-top:none;}
 .gallery-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:16px;}
 .gallery-item{
   aspect-ratio:1/1; border-radius:10px; overflow:hidden;
